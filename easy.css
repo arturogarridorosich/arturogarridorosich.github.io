@@ -13,3 +13,6 @@ table {
 table, th, tr{
   border: 1px solid black;
 }
+table{
+  text-align:center;
+}
