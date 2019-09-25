@@ -7,6 +7,9 @@ display:block;
 margin:auto;
 }
 
+table {
+  border-collapse: collapse;
+}
 table, th, tr{
   border: 1px solid black;
 }
