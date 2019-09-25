@@ -1,18 +1,26 @@
-h1{text-align:center;
-size:150;
-color:#ff8000}
-
-.fotonaruto{
-display:block;
-margin:auto;
-}
-
-table {
-  border-collapse: collapse;
-}
-table, th, tr{
+//Texto
+  h1{text-align:center;
+  size:150;
+  color:#ff8000}
+//Imagenes
+  .fotonaruto{
+  display:block;
+  margin:auto;
+  }
+//Tablas
+  table {
+    border-collapse: collapse;
+  }
+  
+  table, th, tr{
   border: 1px solid black;
-}
-table{
-  text-align:center;
-}
+  }
+  
+  table{
+    text-align:center;
+  }
+
+//Links
+  a:link{
+
+
