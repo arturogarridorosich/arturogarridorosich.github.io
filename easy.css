@@ -1,16 +1,16 @@
-/*textos
+/*//textos
 
   h1{text-align:center;
   size:150;
   color:#ff8000;
 }
-Imagenes
+//Imagenes
 
   .fotonaruto{
   display:block;
   margin:auto;
   }
-Tablas
+//Tablas
 
   table {
     border-collapse: collapse;
@@ -24,14 +24,14 @@ Tablas
     text-align:center;
   }
 
-Links*/
+//Links*/
 
 .portada{
   text-align:center;
   width:60%
 }
 .tablas{
-  width:40%;
+  width:40%; 
   self-align:center;
 }
   
