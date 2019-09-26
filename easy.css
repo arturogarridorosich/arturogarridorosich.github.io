@@ -1,4 +1,4 @@
-//Texto
+//Textos
   h1{text-align:center;
   size:150;
   color:#ff8000}
@@ -12,7 +12,7 @@
     border-collapse: collapse;
   }
   
-  table, th, tr{
+  table, th,{
   border: 1px solid black;
   }
   
