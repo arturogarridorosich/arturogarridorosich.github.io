@@ -26,12 +26,12 @@
 
 //Links*/
 
-.portada{
+#portada{
   text-align:center;
   width:60%;
   float:center;
 }
-.tablas{
+#tablas{
   width:40%; 
   floatt:center;
 }
