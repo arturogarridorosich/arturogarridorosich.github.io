@@ -29,14 +29,14 @@
 #portada{
   text-align:center;
   width:100%;
-  float:center;
+  float:left;
 }
 #tabla{
   width:60%; 
   float:left;
 }
 #espaciador{
-  width:39%;
+  width:40%;
   float:left;
 }
     
