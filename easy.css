@@ -28,15 +28,15 @@
 
 #portada{
   text-align:center;
-  width:100;
+  width:100%;
   float:center;
 }
 #tabla{
-  width:60; 
+  width:60%; 
   float:left;
 }
 #espaciador{
-  width:40;
+  width:40%;
   float:left;
 }
     
