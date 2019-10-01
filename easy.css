@@ -33,13 +33,14 @@ a:link{}
   text-align:center;
   width:100%;
   float:left;
+  text-size:50px;
 }
 #tabla{
   width:60%; 
   float:left;
 }
 #espaciador{
-  width:32%;
+  width:36%;
   float:left;
 }
     
