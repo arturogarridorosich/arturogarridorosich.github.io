@@ -1,15 +1,13 @@
-/*//textos
 
-  h1{text-align:center;
-  size:150;
-  color:#ff8000;
-}
+
 //Imagenes
 
   .fotonaruto{
   display:block;
   margin:auto;
-  }*/
+  height: auto; 
+  width: auto; 
+  }
 //Tablas
 
   table {
