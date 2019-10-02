@@ -45,22 +45,22 @@ a:link{}
 * {
   box-sizing: border-box;
 }
-.menu {
+#{
   float: left;
   width: 20%;
 }
-.menuitem {
+#menuitem {
   padding: 8px;
   margin-top: 7px;
   border-bottom: 1px solid #f1f1f1;
 }
-.main {
+#main {
   float: left;
   width: 60%;
   padding: 0 20px;
   overflow: hidden;
 }
-.right {
+#right {
   background-color: lightblue;
   float: left;
   width: 20%;
