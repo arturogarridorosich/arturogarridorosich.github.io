@@ -63,7 +63,7 @@ a:link{}
   margin-top: 7px;
   border-bottom: 1px solid #f1f1f1;
 }
-#{texto
+#texto {
   float: left;
   width: 60%;
   padding: 0 20px;
