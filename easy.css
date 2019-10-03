@@ -42,6 +42,7 @@ a:link{}
   float:left;
 }
 */
+
 * {
   box-sizing: border-box;
 }
@@ -61,13 +62,13 @@ a:link{}
   margin-top: 7px;
   border-bottom: 1px solid #f1f1f1;
 }
-#main {
+#{
   float: left;
   width: 60%;
   padding: 0 20px;
   overflow: hidden;
 }
-#right {
+#tabla {
   background-color: lightblue;
   float: left;
   width: 20%;
