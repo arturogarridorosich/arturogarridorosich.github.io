@@ -49,6 +49,13 @@ a:link{}
   float: left;
   width: 20%;
 }
+#portada {
+  float: left;
+  width: 100%;
+  padding:0 20px;
+  text-align: middle;
+}
+
 #menuitem {
   padding: 8px;
   margin-top: 7px;
