@@ -1,75 +1,72 @@
-
-/*
-//Imagenes
-
-  .fotonaruto{
-  display:block;
-  margin:auto;
-  height: auto; 
-  width: auto; 
-  }
-//Tablas
-  
- table.center {
-    margin-left:auto; 
-    margin-right:auto;
-  }
-  table {
-    border-collapse: collapse;
-  }
-  
-  th,{
-  border: 1px solid #000;
-  solid black;
-  }
-  
-  table{
-    text-align:center;
-  }
-
-//Links
-a:link{}
-
-
-#portada{
-  text-align:center;
-  width:100%;
-  float:left;
-  font-size:50px;
-}
-#tabla{
-  width:100%; 
-  float:left;
-}
-*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 * {
   box-sizing: border-box;
 }
-#{
-  float: left;
-  width: 20%;
-}
-#portada {
-  float: left;
-  width: 100%;
-  padding:0 20px;
-  text-align: center;
-  text-size: 2em;
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0efef;
 }
 
-#menuitem {
+h1{
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
+}
+
+h2{
+  border-bottom: 1px dashed gray;
+  font-weight: 400;
+  font-size: 1.5em;
+  font-style: normal;
+}
+
+p{
+
+  font-size: 14px;
+  line-height: 24px;
+}
+
+a{
+  text-decoration:none;
+  color:grey;
+}
+
+a:hover{
+  font-weight: 800;
+}
+
+#arriba{
+  background-color:#f1f1f1;padding:15px;
+  border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 0px solid #000000;
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(199,199,199,1) 52%, rgba(184,182,182,1) 100%);
+}
+
+img{
+  max-width:100%
+}
+
+#menu {
+  float: left;
+  width: 20%;
+  
+}
+.menuitem {
   padding: 8px;
   margin-top: 7px;
-  border-bottom: 1px solid #f1f1f1;
+  border-bottom: 1px solid #868383;
 }
-#texto {
+#centro {
   float: left;
   width: 60%;
-  padding: 0 20px;
+  padding: 20px;
   overflow: hidden;
 }
-#tabla {
+#derecha {
   background-color: lightblue;
   float: left;
   width: 20%;
@@ -77,21 +74,28 @@ a:link{}
   margin-top: 7px;
 }
 
+#abajo{
+  background-color:#f1f1f1;
+  text-align:center;
+  padding:10px;
+  margin-top:7px;
+  font-size:12px
+}
+
 @media only screen and (max-width:800px) {
   /* For tablets: */
-  .main {
+  #centro {
     width: 80%;
     padding: 0;
   }
-  .right {
+  #derecha {
     width: 100%;
   }
 }
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
-  .menu, .main, .right {
+  #izquierda, #centro, #derecha {
     width: 100%;
   }
-
-
+}
 
